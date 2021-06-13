@@ -54,6 +54,63 @@ e 7 c c 7 7 7 7 7 7 c c 7 e . .
 . . . f 7 f f f 7 f f 7 f . . . 
 . . . f f . . f f . . f f . . . 
 `;
+            case "image6":
+            case "Green Obstacle":return img`
+. . . . . e e e 5 5 5 . . . . . 
+. . . e e 7 7 7 7 1 1 5 e . . . 
+. . e 7 7 7 7 7 7 7 7 7 7 e . . 
+. e 7 7 7 c 7 7 7 7 c 7 7 7 e . 
+e 7 7 7 7 c 7 7 7 7 c 7 7 7 7 e 
+e 7 7 7 7 c 7 7 7 7 c 7 7 7 7 e 
+e 7 7 7 7 7 7 7 7 7 7 7 7 7 7 e 
+. e e 7 7 7 7 7 7 7 7 7 7 e e . 
+. . . c c 7 7 7 7 7 7 c c . . . 
+. . . . . c c c c c c . . . . . 
+. . . . . . e d d e . . . . . . 
+. . . . . e d d d d e . . . . . 
+. . . . . e d d d d e . . . . . 
+. . . . e d d d d d d e . . . . 
+. . . . e d d d d d d e . . . . 
+. . . . . e e e e e e . . . . . 
+`;
+            case "image4":
+            case "Red Obstacle":return img`
+. . . . . e e e 5 5 5 . . . . . 
+. . . e e 2 2 2 2 1 1 5 e . . . 
+. . e 2 2 2 2 2 2 2 2 2 2 e . . 
+. e 2 2 2 c 2 2 2 2 c 2 2 2 e . 
+e 2 2 2 2 c 2 2 2 2 c 2 2 2 2 e 
+e 2 2 2 2 c 2 2 2 2 c 2 2 2 2 e 
+e 2 2 2 2 2 2 2 2 2 2 2 2 2 2 e 
+. e e 2 2 2 2 2 2 2 2 2 2 e e . 
+. . . c c 2 2 2 2 2 2 c c . . . 
+. . . . . c c c c c c . . . . . 
+. . . . . . e d d e . . . . . . 
+. . . . . e d d d d e . . . . . 
+. . . . . e d d d d e . . . . . 
+. . . . e d d d d d d e . . . . 
+. . . . e d d d d d d e . . . . 
+. . . . . e e e e e e . . . . . 
+`;
+            case "image5":
+            case "Blue Obstacle":return img`
+. . . . . e e e 5 5 5 . . . . . 
+. . . e e 6 6 6 6 1 1 5 e . . . 
+. . e 6 6 6 6 6 6 6 6 6 6 e . . 
+. e 6 6 6 c 6 6 6 6 c 6 6 6 e . 
+e 6 6 6 6 c 6 6 6 6 c 6 6 6 6 e 
+e 6 6 6 6 c 6 6 6 6 c 6 6 6 6 e 
+e 6 6 6 6 6 6 6 6 6 6 6 6 6 6 e 
+. e e 6 6 6 6 6 6 6 6 6 6 e e . 
+. . . c c 6 6 6 6 6 6 c c . . . 
+. . . . . c c c c c c . . . . . 
+. . . . . . e d d e . . . . . . 
+. . . . . e d d d d e . . . . . 
+. . . . . e d d d d e . . . . . 
+. . . . e d d d d d d e . . . . 
+. . . . e d d d d d d e . . . . 
+. . . . . e e e e e e . . . . . 
+`;
         }
         return null;
     })

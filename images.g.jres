@@ -14,6 +14,21 @@
         "mimeType": "image/x-mkcd-f4",
         "displayName": "ah green"
     },
+    "image6": {
+        "data": "hwQQABAAAAAAAO4OAAAAAADgd+cAAAAAAH535wAAAADgd3d3DAAAAOB3d3cMAOAOfsfMd8fg3u1+d3d3x97d7X53d3fH3d3tdXd3d8fd3e0Vd3d3x97d7RXHzHfH4N7tUHd3dwwA4A7gd3d3DAAAAAB+d+cAAAAAAOB35wAAAAAAAO4OAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Green Obstacle"
+    },
+    "image4": {
+        "data": "hwQQABAAAAAAAO4OAAAAAADgIuIAAAAAAC4i4gAAAADgIiIiDAAAAOAiIiIMAOAOLsLMIsLg3u0uIiIiwt7d7S4iIiLC3d3tJSIiIsLd3e0VIiIiwt7d7RXCzCLC4N7tUCIiIgwA4A7gIiIiDAAAAAAuIuIAAAAAAOAi4gAAAAAAAO4OAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Red Obstacle"
+    },
+    "image5": {
+        "data": "hwQQABAAAAAAAO4OAAAAAADgZuYAAAAAAG5m5gAAAADgZmZmDAAAAOBmZmYMAOAObsbMZsbg3u1uZmZmxt7d7W5mZmbG3d3tZWZmZsbd3e0VZmZmxt7d7RXGzGbG4N7tUGZmZgwA4A7gZmZmDAAAAABuZuYAAAAAAOBm5gAAAAAAAO4OAAAAAA==",
+        "mimeType": "image/x-mkcd-f4",
+        "displayName": "Blue Obstacle"
+    },
     "*": {
         "mimeType": "image/x-mkcd-f4",
         "dataEncoding": "base64",
