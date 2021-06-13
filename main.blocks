@@ -1,0 +1,16 @@
+<xml xmlns="https://developers.google.com/blockly/xml"><variables><variable id="_Rq0(A*oIY}dHnw4DTEh">mySprite</variable><variable type="KIND_SpriteKind" id="Z/R^D0~,b$eUo9x}pU5y">Player</variable><variable type="KIND_SpriteKind" id="kl;`ME{$b(w`^+:W$akd">Projectile</variable><variable type="KIND_SpriteKind" id="-gKdrycml$%[W^=bSz?s">Food</variable><variable type="KIND_SpriteKind" id="dP4Y:N.tV-k@gmH]akOX">Enemy</variable></variables><block type="pxt-on-start" id="}hx*8eHPlYC:1ReJvQA," x="0" y="0"><statement name="HANDLER"><block type="variables_set" id="S@9|?2t|R]CZ]F_,NI(D"><field name="VAR" id="_Rq0(A*oIY}dHnw4DTEh">mySprite</field><value name="VALUE"><shadow xmlns="http://www.w3.org/1999/xhtml" type="math_number"><field name="NUM">0</field></shadow><block type="spritescreate" id="bI8RjQmv#K[zV^uC@P-:"><value name="img"><shadow type="screen_image_picker" id="ZXEL%y~t}yEhl891D7.h"><field name="img">img`
+. . 4 4 4 . . . . 4 4 4 . . . . 
+. 4 5 5 5 e . . e 5 5 5 4 . . . 
+4 5 5 5 5 5 e e 5 5 5 5 5 4 . . 
+4 5 5 4 4 5 5 5 5 4 4 5 5 4 . . 
+e 5 4 4 5 5 5 5 5 5 4 4 5 e . . 
+. e e 5 5 5 5 5 5 5 5 e e . . . 
+. . e 5 f 5 5 5 5 f 5 e . . . . 
+. . f 5 5 5 4 4 5 5 5 f . . f f 
+. . f 4 5 5 f f 5 5 6 f . f 5 f 
+. . . f 6 6 6 6 6 6 4 4 f 5 5 f 
+. . . f 4 5 5 5 5 5 5 4 4 5 f . 
+. . . f 5 5 5 5 5 4 5 5 f f . . 
+. . . f 5 f f f 5 f f 5 f . . . 
+. . . f f . . f f . . f f . . . 
+`</field><data>{"commentRefs":[],"fieldData":{"img":"ZXEL%y~t}yEhl891D7.h"}}</data></shadow></value><value name="kind"><shadow type="spritekind" id="LrA5af[}d3]B(fgioQ_J"><field name="MEMBER">Player</field></shadow></value></block></value><next><block type="Sprite_blockCombine_set" id="Q2g-{YI=K[!oy~={K_Ou"><field name="property">Sprite.x@set</field><value name="mySprite"><block type="variables_get" id="JE2uY%k_5`h!vcbPfR|y"><field name="VAR" id="_Rq0(A*oIY}dHnw4DTEh">mySprite</field></block></value><value name="value"><shadow type="math_number"><field name="NUM">50</field></shadow><block type="scenescreenwidth" id="4%`9{FJ]%5IP2B~5_Wd8"/></value></block></next></block></statement></block></xml>
