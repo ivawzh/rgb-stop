@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "build": "pxt build",
+    "deploy": "pxt deploy",
+    "test": "pxt test",
+    "start": "pxt run",
+    "postinstall": "pxt target arcade && pxt install"
+  },
+  "devDependencies": {},
+  "dependencies": {
+    "pxt": "^0.5.1",
+    "pxt-arcade": "^1.5.26"
+  }
+}
